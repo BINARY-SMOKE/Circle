@@ -10,16 +10,13 @@
         android:name="com.bs.circle.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.bs.circle.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_circle"
+        android:name="com.bs.circle.ui.circle.CircleFragment"
+        android:label="@string/menu_circle" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.bs.circle.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_settings"
+        android:name="com.bs.circle.ui.settings.SettingFragment"
+        android:label="@string/menu_settings" />
+
 </navigation>
